@@ -1,4 +1,8 @@
 function Mounse(name){
     this.name = name;
-    alert(123);
+    this.dead = false;
 }
+Mouse.prototype.die = function (){
+    thisis.dead = true;
+};
+ module.exports = Mouse;
